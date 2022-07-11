@@ -1,0 +1,387 @@
+body {
+    overflow-y: scroll;
+  }
+  
+  header {
+    background-color: #2f9e41;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .header--right {
+    width: 50%;
+    display: flex;
+    flex: 1.2;
+  }
+  
+  .header--logo {
+    text-decoration: none;
+    max-width: 100%;
+  }
+  
+  .header--logo:hover {
+    cursor: pointer;
+  }
+  
+  .header--logo img {
+    width: 75px;
+  }
+  
+  .header--info {
+    line-height: 1.42857143;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+    align-self: start;
+    font-size: 16px;
+  }
+  
+  .header--welcome {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+  }
+  
+  .header--user {
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .user {
+    width: 42px;
+  }
+  
+  .header--icons {
+    width: 33%;
+    padding: 0 30px;
+  }
+  
+  .header--close {
+    display: flex;
+    flex: 0.3;
+    margin: 0 10px 0 10px;
+  }
+  
+  .header--close a {
+    text-decoration: none;
+    flex: 1;
+  }
+  
+  .header--close a svg {
+    height: 15px;
+    fill: #008042;
+  }
+  
+  .header--close a svg:hover {
+    fill: #ce181f;
+    cursor: pointer;
+  }
+  
+  .icons--container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-left: 20px;
+  }
+  
+  .icons--container a {
+    text-decoration: none;
+    flex: 1;
+  }
+  
+/* BOTÃO SUPERIOR */
+
+.btn_icons
+{
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: #2F9E41;
+    outline: none;
+}
+
+.icon_email
+{
+	background: url('../assets/icons/toolbar_email_hover.png') no-repeat -2px -25px;
+	width: 22px;
+	height: 21px;
+}
+
+.icon_email:hover
+{
+	background: url('../assets/icons/toolbar_email_hover.png') no-repeat -2px -95px;
+	width: 22px;
+	height: 21px;
+}
+.icon_bibli
+{
+	background: url('../assets/icons/toolbar_biblioteca_hover.png') no-repeat -2px -25px;
+	width: 22px;
+	height: 21px;
+}
+
+.icon_bibli:hover
+{
+	background: url('../assets/icons/toolbar_email_hover.png') no-repeat -2px -95px;
+	width: 22px;
+	height: 21px;
+}
+.icon_wallet
+{
+	background: url('../assets/icons/toolbar_carteirinha_hover.png') no-repeat -2px -25px;
+	width: 22px;
+	height: 21px;
+}
+
+.icon_wallet:hover
+{
+	background: url('../assets/icons/toolbar_carteirinha_hover.png') no-repeat -2px -95px;
+	width: 22px;
+	height: 21px;
+}
+.icon_locker
+{
+	background: url('../assets/icons/toolbar_cadeado_hover.png') no-repeat -2px -25px;
+	width: 22px;
+	height: 21px;
+}
+
+.icon_locker:hover
+{
+	background: url('../assets/icons/toolbar_cadeado_hover.png') no-repeat -2px -95px;
+	width: 22px;
+	height: 21px;
+}
+.icon_alert
+{
+	background: url('../assets/icons/toolbar_alerta_hover.png') no-repeat -2px -25px;
+	width: 22px;
+	height: 21px;
+}
+
+.icon_alert:hover
+{
+	background: url('../assets/icons//toolbar_alerta_hover.png') no-repeat -2px -95px;
+	width: 22px;
+	height: 21px;
+}
+
+  
+  
+  
+  .slider {
+    padding-top: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slider:hover {
+    cursor: pointer;
+  }
+  
+  .menuRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .menuRow a {
+    width: 23%;
+    margin-right: 8px;
+  }
+  
+  .menuRow--button {
+    flex: 1;
+    cursor: pointer;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    opacity: 0.9;
+  }
+  
+  .menuRow--button:hover {
+    opacity: 1;
+  }
+  
+  .estudent-assistent,
+  .events {
+    background-color: #64b2b2;
+  }
+  
+  .beec,
+  .abnt,
+  .virtual-disk,
+  .student,
+  .mural,
+  .qi,
+  .biblioteca {
+    background-color: #ca2c2d;
+  }
+
+  .covid {
+    background-color: #fc9300;
+  }
+  
+  .docs {
+    background-color: #e28400;
+  }
+  
+  .gss,
+  .not {
+    background-color: #2e7ea3;
+  }
+  
+  .vot {
+    background-color: #818f96;
+  }
+  
+  .menuRow--text {
+    margin-left: -33px;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .menuRow--title {
+    font-weight: bold;
+  }
+  
+  .button--close {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    align-items: center;
+    width: 100%;
+    background-color: #2f9e41;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-left: 0;
+    padding: 0.5em 0 0.5em 0;
+    display: none;
+  }
+  
+  .button--close samp {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .button--close:hover {
+    background-color: #008042;
+  }
+  
+  footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .menuRow a {
+      width: 30%;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    header {
+      flex-direction: column-reverse;
+      height: 130px;
+      align-items: flex-end;
+    }
+  
+    .header--right {
+      width: 55%;
+    }
+  
+    .header--icons {
+      width: 100%;
+      padding: 0;
+      justify-content: center;
+      display: flex;
+    }
+  
+    .icons--container {
+      padding: 0;
+      width: 40%;
+    }
+  
+    .icons--container iconTop {
+      
+      height: 50px;
+      width: 30px;
+      margin-right: 0;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .menuRow a {
+      width: 40%;
+    }
+  
+    .header--info {
+      display: none;
+    }
+  
+    .header--close {
+      display: none;
+    }
+  
+    .slider {
+      max-width: 100%;
+    }
+  
+    .header--right {
+      margin-top: 15px;
+    }
+  
+    .slider {
+      padding-top: 145px;
+    }
+  
+    .button--close {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 720px) {
+    .menuRow a {
+      width: 100%;
+    }
+  
+    .header--logo img {
+      content: url(../assets/icons/logo_virtualif_mini.svg);
+      width: 140px;
+    }
+  
+    .header--right {
+      width: 60%;
+    }
+  }
+  
